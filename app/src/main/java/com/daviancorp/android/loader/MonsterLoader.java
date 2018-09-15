@@ -1,9 +1,9 @@
 package com.daviancorp.android.loader;
 
+import android.content.Context;
+
 import com.daviancorp.android.data.classes.Monster;
 import com.daviancorp.android.data.database.DataManager;
-
-import android.content.Context;
 
 public class MonsterLoader extends DataLoader<Monster> {
 	private long mMonsterId;

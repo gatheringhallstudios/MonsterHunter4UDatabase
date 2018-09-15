@@ -1,8 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
@@ -23,6 +20,9 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Armor;
 import com.daviancorp.android.loader.ArmorLoader;
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class ArmorDetailFragment extends Fragment {
 	private static final String ARG_ARMOR_ID = "ARMOR_ID";

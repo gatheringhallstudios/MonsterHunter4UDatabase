@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.daviancorp.android.data.classes.ASBSession;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.detail.ASBActivity;

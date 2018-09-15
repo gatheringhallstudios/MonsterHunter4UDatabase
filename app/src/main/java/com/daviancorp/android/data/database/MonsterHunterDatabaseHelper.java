@@ -1,14 +1,5 @@
 package com.daviancorp.android.data.database;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -18,14 +9,19 @@ import android.database.sqlite.SQLiteQueryBuilder;
 import android.util.Xml;
 
 import com.daviancorp.android.data.classes.ASBSession;
-import com.daviancorp.android.data.classes.Wishlist;
-import com.daviancorp.android.data.classes.WishlistComponent;
-import com.daviancorp.android.data.classes.WishlistData;
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
+import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlSerializer;
-import org.xmlpull.v1.XmlPullParser;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
 /*
    QUERY REFERENCE:

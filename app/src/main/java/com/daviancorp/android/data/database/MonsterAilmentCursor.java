@@ -4,7 +4,6 @@ import android.database.Cursor;
 import android.database.CursorWrapper;
 
 import com.daviancorp.android.data.classes.MonsterAilment;
-import com.daviancorp.android.data.classes.MonsterStatus;
 
 /**
  * Created by Jayson on 3/21/2015

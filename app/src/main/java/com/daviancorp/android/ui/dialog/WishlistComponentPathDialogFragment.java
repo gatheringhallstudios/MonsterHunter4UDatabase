@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.dialog;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -10,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class WishlistComponentPathDialogFragment extends DialogFragment {
 	public static final String EXTRA_PATH =

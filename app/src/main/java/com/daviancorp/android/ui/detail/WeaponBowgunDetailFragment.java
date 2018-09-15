@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
 
 public class WeaponBowgunDetailFragment extends WeaponDetailFragment {
 

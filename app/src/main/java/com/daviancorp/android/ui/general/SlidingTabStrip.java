@@ -16,6 +16,7 @@ package com.daviancorp.android.ui.general;
  * limitations under the License.
  */
 //import android.R;
+
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -26,7 +27,6 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.daviancorp.android.mh4udatabase.R;
-import com.daviancorp.android.ui.general.SlidingTabLayout;
 
 
 class SlidingTabStrip extends LinearLayout {

@@ -12,8 +12,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
 import com.daviancorp.android.data.classes.ASBSession;
-import com.daviancorp.android.data.classes.ASBSession.*;
+import com.daviancorp.android.data.classes.ASBSession.SkillTreeInSet;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.SkillClickListener;
 import com.daviancorp.android.ui.detail.ASBActivity;

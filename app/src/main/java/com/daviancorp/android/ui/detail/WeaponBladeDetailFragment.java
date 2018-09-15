@@ -1,18 +1,14 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import android.content.Context;
-import android.support.v4.content.Loader;
 import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
+import android.support.v4.content.Loader;
 import android.support.v4.widget.CursorAdapter;
-import android.support.v7.internal.widget.ViewUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,11 +19,14 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Melody;
 import com.daviancorp.android.data.classes.Weapon;
 import com.daviancorp.android.data.database.HornMelodiesCursor;
+import com.daviancorp.android.loader.HornMelodyListCursorLoader;
 import com.daviancorp.android.loader.WeaponLoader;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.MHUtils;
 import com.daviancorp.android.ui.general.DrawSharpness;
-import com.daviancorp.android.loader.HornMelodyListCursorLoader;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class WeaponBladeDetailFragment extends WeaponDetailFragment{
 

@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -24,6 +22,8 @@ import com.daviancorp.android.data.database.ItemToSkillTreeCursor;
 import com.daviancorp.android.loader.ItemToSkillTreeListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.ArmorClickListener;
+
+import java.io.IOException;
 
 public class SkillTreeArmorFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

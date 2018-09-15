@@ -2,9 +2,7 @@ package com.daviancorp.android.ui.detail;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
@@ -15,7 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.daviancorp.android.data.classes.Gathering;
@@ -23,8 +20,6 @@ import com.daviancorp.android.data.database.GatheringCursor;
 import com.daviancorp.android.loader.GatheringListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.LocationClickListener;
-
-import java.io.IOException;
 
 public class ItemLocationFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

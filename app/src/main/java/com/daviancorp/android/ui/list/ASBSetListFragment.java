@@ -1,22 +1,35 @@
 package com.daviancorp.android.ui.list;
 
-import android.app.*;
-import android.content.*;
-import android.content.DialogInterface.*;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.app.ListFragment;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.Loader;
-import android.view.*;
-import android.widget.*;
+import android.view.ActionMode;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.CursorAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+
 import com.daviancorp.android.data.classes.ASBSet;
 import com.daviancorp.android.data.database.ASBSetCursor;
 import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.loader.ASBSetListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
-import com.daviancorp.android.ui.detail.*;
+import com.daviancorp.android.ui.detail.ASBActivity;
 import com.daviancorp.android.ui.dialog.ASBSetAddDialogFragment;
 
 public class ASBSetListFragment extends ListFragment implements LoaderCallbacks<Cursor> {

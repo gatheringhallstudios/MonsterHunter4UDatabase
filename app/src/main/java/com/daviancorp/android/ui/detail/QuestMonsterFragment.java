@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -25,6 +23,8 @@ import com.daviancorp.android.data.database.MonsterToQuestCursor;
 import com.daviancorp.android.loader.MonsterToQuestListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.MonsterClickListener;
+
+import java.io.IOException;
 
 public class QuestMonsterFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

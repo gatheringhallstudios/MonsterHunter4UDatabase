@@ -5,7 +5,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.daviancorp.android.data.database.S;
 import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.ui.detail.ComponentListFragment;
 import com.daviancorp.android.ui.detail.WeaponBladeDetailFragment;

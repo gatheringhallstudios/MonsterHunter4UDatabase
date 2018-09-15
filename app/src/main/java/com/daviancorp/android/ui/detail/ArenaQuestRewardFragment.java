@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -24,6 +22,8 @@ import com.daviancorp.android.data.classes.ArenaReward;
 import com.daviancorp.android.data.database.ArenaRewardCursor;
 import com.daviancorp.android.loader.ArenaQuestRewardListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
 
 public class ArenaQuestRewardFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

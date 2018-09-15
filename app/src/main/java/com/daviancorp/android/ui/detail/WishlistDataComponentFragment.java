@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -11,12 +9,17 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.ListFragment;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.Loader;
 import android.support.v4.widget.CursorAdapter;
+import android.view.ActionMode;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -26,20 +29,14 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import android.support.v4.app.ListFragment;
-import android.view.ActionMode;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-
 import com.daviancorp.android.data.classes.WishlistComponent;
-import com.daviancorp.android.data.database.ComponentCursor;
 import com.daviancorp.android.data.database.DataManager;
-import com.daviancorp.android.data.database.S;
 import com.daviancorp.android.data.database.WishlistComponentCursor;
 import com.daviancorp.android.loader.WishlistComponentListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.dialog.WishlistComponentEditDialogFragment;
+
+import java.io.IOException;
 
 public class WishlistDataComponentFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

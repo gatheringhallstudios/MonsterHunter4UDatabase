@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.dialog;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -19,6 +17,8 @@ import com.daviancorp.android.data.classes.Wishlist;
 import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.data.database.WishlistCursor;
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.util.ArrayList;
 
 public class WishlistDataAddDialogFragment extends DialogFragment {
 	public static final String EXTRA_ADD =

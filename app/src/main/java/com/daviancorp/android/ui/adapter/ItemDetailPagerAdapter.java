@@ -4,7 +4,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.daviancorp.android.ui.detail.ItemArenaFragment;
 import com.daviancorp.android.ui.detail.ItemComponentFragment;
 import com.daviancorp.android.ui.detail.ItemDetailFragment;
 import com.daviancorp.android.ui.detail.ItemLocationFragment;

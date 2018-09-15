@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 
 import com.daviancorp.android.mh4udatabase.R;
 

@@ -1,12 +1,6 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-
-import android.content.Context;
 import android.content.res.AssetManager;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -17,19 +11,19 @@ import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CursorAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.daviancorp.android.data.classes.Monster;
-import com.daviancorp.android.data.classes.MonsterAilment;
 import com.daviancorp.android.data.classes.MonsterDamage;
 import com.daviancorp.android.data.database.DataManager;
-import com.daviancorp.android.data.database.MonsterAilmentCursor;
-import com.daviancorp.android.loader.MonsterAilmentCursorLoader;
 import com.daviancorp.android.loader.MonsterLoader;
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
 
 public class MonsterDamageFragment extends Fragment {
 	private static final String ARG_MONSTER_ID = "MONSTER_ID";

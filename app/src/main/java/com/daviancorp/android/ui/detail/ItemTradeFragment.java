@@ -1,8 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
@@ -21,9 +18,9 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.WyporiumTrade;
 import com.daviancorp.android.loader.WyporiumTradeLoader;
 import com.daviancorp.android.mh4udatabase.R;
-import com.daviancorp.android.ui.ClickListeners.ItemClickListener;
 
-import org.w3c.dom.Text;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class ItemTradeFragment extends Fragment {
     private static final String ARG_ITEM_IN_ID = "ITEM_IN_ID";

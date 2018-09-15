@@ -4,8 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 
-import com.daviancorp.android.ui.adapter.WeaponDetailPagerAdapter;
-import com.daviancorp.android.ui.detail.ArmorDetailActivity;
 import com.daviancorp.android.ui.detail.WeaponDetailActivity;
 
 /**

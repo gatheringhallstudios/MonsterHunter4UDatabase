@@ -1,8 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -20,6 +17,9 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Item;
 import com.daviancorp.android.loader.ItemLoader;
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class ItemDetailFragment extends Fragment {
 	private static final String ARG_ITEM_ID = "ITEM_ID";

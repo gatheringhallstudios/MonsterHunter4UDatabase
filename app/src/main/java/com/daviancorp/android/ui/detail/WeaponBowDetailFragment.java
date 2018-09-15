@@ -1,8 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -15,6 +12,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class WeaponBowDetailFragment extends WeaponDetailFragment {
 

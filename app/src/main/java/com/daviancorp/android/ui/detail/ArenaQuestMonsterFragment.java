@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -24,6 +22,8 @@ import com.daviancorp.android.data.classes.MonsterToArena;
 import com.daviancorp.android.data.database.MonsterToArenaCursor;
 import com.daviancorp.android.loader.MonsterToArenaListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
 
 public class ArenaQuestMonsterFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

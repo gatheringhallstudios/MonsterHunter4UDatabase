@@ -5,8 +5,6 @@ import android.database.Cursor;
 
 import com.daviancorp.android.data.database.DataManager;
 
-import java.util.PriorityQueue;
-
 public class CombiningListCursorLoader extends SQLiteCursorLoader {
 
     private long id;

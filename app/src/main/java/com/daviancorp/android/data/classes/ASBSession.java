@@ -2,6 +2,7 @@ package com.daviancorp.android.data.classes;
 
 import android.content.Context;
 import android.util.Log;
+
 import com.daviancorp.android.data.database.DataManager;
 
 import java.util.ArrayList;

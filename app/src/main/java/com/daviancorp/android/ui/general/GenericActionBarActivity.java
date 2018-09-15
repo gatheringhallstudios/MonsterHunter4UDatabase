@@ -13,8 +13,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
@@ -33,7 +33,7 @@ import android.widget.TextView;
 
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.dialog.AboutDialogFragment;
-import com.daviancorp.android.ui.list.*;
+import com.daviancorp.android.ui.list.ASBSetListActivity;
 import com.daviancorp.android.ui.list.ArmorListActivity;
 import com.daviancorp.android.ui.list.CombiningListActivity;
 import com.daviancorp.android.ui.list.DecorationListActivity;
@@ -42,6 +42,7 @@ import com.daviancorp.android.ui.list.LocationListActivity;
 import com.daviancorp.android.ui.list.MonsterListActivity;
 import com.daviancorp.android.ui.list.QuestListActivity;
 import com.daviancorp.android.ui.list.SkillTreeListActivity;
+import com.daviancorp.android.ui.list.UniversalSearchActivity;
 import com.daviancorp.android.ui.list.WeaponSelectionListActivity;
 import com.daviancorp.android.ui.list.WishlistListActivity;
 import com.daviancorp.android.ui.list.WyporiumTradeListActivity;
@@ -57,7 +58,7 @@ import de.cketti.library.changelog.ChangeLog;
  *  - override createFragment() for detail fragments
  */
 
-public abstract class GenericActionBarActivity extends ActionBarActivity {
+public abstract class GenericActionBarActivity extends AppCompatActivity {
 
     protected static final String DIALOG_ABOUT = "about";
 

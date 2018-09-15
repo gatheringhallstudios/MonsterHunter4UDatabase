@@ -1,9 +1,6 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -16,21 +13,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.daviancorp.android.data.classes.Component;
 import com.daviancorp.android.data.classes.Item;
 import com.daviancorp.android.data.database.ComponentCursor;
-import com.daviancorp.android.data.database.DataManager;
-import com.daviancorp.android.data.database.S;
-import com.daviancorp.android.loader.ArmorLoader;
 import com.daviancorp.android.loader.ComponentListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.ArmorClickListener;
 import com.daviancorp.android.ui.ClickListeners.DecorationClickListener;
 import com.daviancorp.android.ui.ClickListeners.ItemClickListener;
 import com.daviancorp.android.ui.ClickListeners.WeaponClickListener;
+
+import java.io.IOException;
 
 public class ItemComponentFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

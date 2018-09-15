@@ -1,8 +1,8 @@
 package com.daviancorp.android.ui.general;
 
-import android.content.*;
-import android.support.annotation.*;
-import android.util.*;
+import android.content.Context;
+import android.support.annotation.ArrayRes;
+import android.util.Log;
 
 /**
  * A static class that provides helper methods for accessing and managing the {@code res} directory.

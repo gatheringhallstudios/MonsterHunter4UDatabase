@@ -1,10 +1,6 @@
 package com.daviancorp.android.data.classes;
 
-import android.app.Application;
-import android.content.res.Resources;
 import android.util.Log;
-
-import com.daviancorp.android.mh4udatabase.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

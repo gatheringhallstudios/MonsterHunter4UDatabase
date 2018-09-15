@@ -1,8 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
@@ -23,6 +20,9 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Decoration;
 import com.daviancorp.android.loader.DecorationLoader;
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class DecorationDetailFragment extends Fragment {
 	private static final String ARG_DECORATION_ID = "DECORATION_ID";

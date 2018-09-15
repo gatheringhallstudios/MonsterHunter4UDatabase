@@ -4,7 +4,6 @@ import android.database.Cursor;
 import android.database.CursorWrapper;
 
 import com.daviancorp.android.data.classes.ArenaQuest;
-import com.daviancorp.android.data.classes.Item;
 import com.daviancorp.android.data.classes.Location;
 
 /**

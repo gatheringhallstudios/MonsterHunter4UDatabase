@@ -1,10 +1,7 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -17,7 +14,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.daviancorp.android.data.classes.QuestReward;
@@ -25,6 +21,8 @@ import com.daviancorp.android.data.database.QuestRewardCursor;
 import com.daviancorp.android.loader.QuestRewardListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.ItemClickListener;
+
+import java.io.IOException;
 
 public class QuestRewardFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

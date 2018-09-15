@@ -1,8 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-import java.io.InputStream;
-
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -20,6 +17,9 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Location;
 import com.daviancorp.android.loader.LocationLoader;
 import com.daviancorp.android.mh4udatabase.R;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class LocationDetailFragment extends Fragment {
 	private static final String ARG_LOCATION_ID = "LOCATION_ID";

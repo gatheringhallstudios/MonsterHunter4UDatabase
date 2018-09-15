@@ -3,8 +3,6 @@ package com.daviancorp.android.ui.list;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -26,7 +24,6 @@ import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.LocationClickListener;
 
 import java.io.IOException;
-import java.io.InputStream;
 
 public class LocationListFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

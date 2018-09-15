@@ -6,7 +6,13 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.*;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+
 import com.daviancorp.android.data.classes.ASBSession;
 import com.daviancorp.android.data.classes.ASBTalisman;
 import com.daviancorp.android.data.classes.Decoration;

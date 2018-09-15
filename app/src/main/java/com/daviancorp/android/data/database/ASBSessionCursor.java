@@ -3,9 +3,15 @@ package com.daviancorp.android.data.database;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.CursorWrapper;
-import com.daviancorp.android.data.classes.*;
-import com.daviancorp.android.mh4udatabase.*;
-import com.daviancorp.android.ui.general.*;
+
+import com.daviancorp.android.data.classes.ASBSession;
+import com.daviancorp.android.data.classes.ASBSet;
+import com.daviancorp.android.data.classes.ASBTalisman;
+import com.daviancorp.android.data.classes.Armor;
+import com.daviancorp.android.data.classes.Decoration;
+import com.daviancorp.android.data.classes.SkillTree;
+import com.daviancorp.android.mh4udatabase.R;
+import com.daviancorp.android.ui.general.ResourceUtils;
 
 public class ASBSessionCursor extends CursorWrapper {
 

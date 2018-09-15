@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
@@ -12,7 +10,8 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Weapon;
 import com.daviancorp.android.loader.WeaponLoader;
 import com.daviancorp.android.mh4udatabase.R;
-import com.daviancorp.android.ui.list.WeaponBladeExpandableFragment;
+
+import java.io.IOException;
 
 public class WeaponDetailFragment extends Fragment {
 	protected static final String ARG_WEAPON_ID = "WEAPON_ID";

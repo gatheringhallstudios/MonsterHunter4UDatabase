@@ -1,7 +1,5 @@
 package com.daviancorp.android.ui.detail;
 
-import java.io.IOException;
-
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -24,6 +22,8 @@ import com.daviancorp.android.data.database.GatheringCursor;
 import com.daviancorp.android.loader.GatheringListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.ItemClickListener;
+
+import java.io.IOException;
 
 public class LocationRankFragment extends ListFragment implements
 		LoaderCallbacks<Cursor> {

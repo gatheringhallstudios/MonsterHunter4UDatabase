@@ -11,7 +11,10 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.*;
+import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.Spinner;
 
 import com.daviancorp.android.data.classes.Rank;
 import com.daviancorp.android.mh4udatabase.R;

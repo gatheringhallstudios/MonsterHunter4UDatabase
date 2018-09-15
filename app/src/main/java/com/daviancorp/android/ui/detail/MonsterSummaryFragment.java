@@ -20,13 +20,11 @@ import android.widget.TextView;
 
 import com.daviancorp.android.data.classes.Monster;
 import com.daviancorp.android.data.classes.MonsterAilment;
-import com.daviancorp.android.data.classes.MonsterDamage;
 import com.daviancorp.android.data.classes.MonsterWeakness;
 import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.data.database.MonsterAilmentCursor;
 import com.daviancorp.android.loader.MonsterAilmentCursorLoader;
 import com.daviancorp.android.loader.MonsterLoader;
-import com.daviancorp.android.loader.MonsterWeaknessCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
 
 import org.apmem.tools.layouts.FlowLayout;
@@ -34,7 +32,6 @@ import org.apmem.tools.layouts.FlowLayout;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class MonsterSummaryFragment extends Fragment {
 	private static final String ARG_MONSTER_ID = "MONSTER_ID";
