@@ -156,7 +156,7 @@ public abstract class GenericActionBarActivity extends AppCompatActivity {
 
         // Enable menu button to toggle drawer
         mDrawerToggle.setDrawerIndicatorEnabled(false);
-        mDrawerLayout.setDrawerListener(mDrawerToggle);
+        mDrawerLayout.addDrawerListener(mDrawerToggle);
 
         //automatically open drawer on launch
         if(!drawerOpened)
@@ -333,6 +333,7 @@ public abstract class GenericActionBarActivity extends AppCompatActivity {
         return true;
     }
 
+    @Override
     public void onBackPressed() {
         // If back is pressed while drawer is open, close drawer.
         if (!isTopLevel && mDrawerLayout.isDrawerOpen(GravityCompat.START)) {

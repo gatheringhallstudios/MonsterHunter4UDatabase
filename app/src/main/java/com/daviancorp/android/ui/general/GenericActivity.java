@@ -35,6 +35,9 @@ public abstract class GenericActivity extends GenericActionBarActivity {
         android.support.v7.widget.Toolbar mtoolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(mtoolbar);
 
+        android.support.v7.app.ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
+
         setTitle(R.string.app_name);
         super.setupDrawer(); // Needs to be called after setContentView
         // Disabled by request. Turns into BACK button
