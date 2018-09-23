@@ -1,28 +1,38 @@
 package com.daviancorp.android.ui.ClickListeners;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.View;
 
-import com.daviancorp.android.ui.detail.ItemDetailActivity;
+import com.daviancorp.android.data.classes.Item;
 
-/**
- * Created by Mark on 2/24/2015.
- */
 public class ItemClickListener implements View.OnClickListener {
-    private Context c;
-    private Long id;
+    private View.OnClickListener innerListener;
 
     public ItemClickListener(Context context, Long id) {
         super();
-        this.id = id;
-        this.c = context;
+        innerListener = constructTrueListener(context, "", id);
+    }
+
+    public ItemClickListener(Context context, Item i) {
+        super();
+        innerListener = constructTrueListener(context, i.getType(), i.getId());
+    }
+
+    private View.OnClickListener constructTrueListener(Context c, String itemType, long id) {
+        switch(itemType) {
+            case "Weapon":
+                return new WeaponClickListener(c, id);
+            case "Armor":
+                return new ArmorClickListener(c, id);
+            case "Decoration":
+                return new DecorationClickListener(c, id);
+            default:
+                return new BasicItemClickListener(c, id);
+        }
     }
 
     @Override
     public void onClick(View v) {
-        Intent i = new Intent(c, ItemDetailActivity.class);
-        i.putExtra(ItemDetailActivity.EXTRA_ITEM_ID, id);
-        c.startActivity(i);
+       innerListener.onClick(v);
     }
 }

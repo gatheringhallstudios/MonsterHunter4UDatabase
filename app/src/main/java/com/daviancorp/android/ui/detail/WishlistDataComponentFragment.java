@@ -367,7 +367,7 @@ public class WishlistDataComponentFragment extends ListFragment implements
 
 			itemImageView.setImageDrawable(i);
 
-			root.setOnClickListener(new ItemClickListener(context, component.getItem().getId()));
+			root.setOnClickListener(new ItemClickListener(context, component.getItem()));
 			root.setTag(componentid);
 		}
 	}
