@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
 
+    <release version="1.09" versioncode="14">
+        <change>Hotfix to support newer Android versions.</change>
+    </release>
+
     <release version="1.08" versioncode="13">
         <change>Another hotfix for startup crash issue</change>
     </release>
