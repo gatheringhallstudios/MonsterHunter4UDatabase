@@ -24,8 +24,7 @@
         android:textColor="@color/list_text"
         android:background="@drawable/generic_clicked_states"
         tools:layout_gravity=""
-        tools:text="List Item 1"
-        style="@style/text_medium" />
+        tools:text="List Item 1" />
 
 </RelativeLayout>
 

@@ -184,6 +184,8 @@
     <string name="asb_dialog_title_copy_set">Copy this set?</string>
     <string name="asb_dialog_title_copy_set_multi">Copy sets?</string>
 
+    <string name="wishlist_text_total">Total cost</string>
+
     <string-array name="talisman_names">
         <item>Pawn,Talisman-White.png</item>
         <item>Bishop,Talisman-Purple.png</item>

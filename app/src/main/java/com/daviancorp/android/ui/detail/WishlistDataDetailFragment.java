@@ -30,6 +30,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.daviancorp.android.data.classes.WishlistData;
+import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.data.database.WishlistDataCursor;
 import com.daviancorp.android.loader.WishlistDataListCursorLoader;
 import com.daviancorp.android.mh4udatabase.R;
@@ -55,7 +56,6 @@ public class WishlistDataDetailFragment extends ListFragment implements
 	private boolean started, fromOtherTab;
 	
 	private ListView mListView;
-	private TextView mHeaderTextView, mItemTypeTextView, mQuantityTypeTextView, mExtraTypeTextView;
 	private ActionMode mActionMode;
 	
 	public static WishlistDataDetailFragment newInstance(long id) {
@@ -82,14 +82,6 @@ public class WishlistDataDetailFragment extends ListFragment implements
 		View v = inflater.inflate(R.layout.fragment_wishlist_component_list, container, false);
 
 		mListView = (ListView) v.findViewById(android.R.id.list);
-		mHeaderTextView = (TextView) v.findViewById(R.id.header);
-		mItemTypeTextView = (TextView) v.findViewById(R.id.item_type);
-		mQuantityTypeTextView = (TextView) v.findViewById(R.id.quantity_type);
-		mExtraTypeTextView = (TextView) v.findViewById(R.id.extra_type);
-		
-		mItemTypeTextView.setText("Item");
-		mQuantityTypeTextView.setText("Qty");
-		mExtraTypeTextView.setText("Method");
 		
 		if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
 			// Use floating context menus on Froyo and Gingerbread
@@ -186,6 +178,15 @@ public class WishlistDataDetailFragment extends ListFragment implements
 	public void onResume() {
 		super.onResume();
 		updateUI();
+	}
+
+	@Override
+	public void setUserVisibleHint(boolean isVisibleToUser) {
+		super.setUserVisibleHint(isVisibleToUser);
+		// If we are becoming visible, then...
+		if (isVisibleToUser) {
+			updateUI();
+		}
 	}
 	
 	private void sendResult(int resultCode, boolean refresh) {
