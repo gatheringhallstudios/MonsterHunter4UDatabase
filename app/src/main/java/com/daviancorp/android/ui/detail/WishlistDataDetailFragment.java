@@ -79,7 +79,7 @@ public class WishlistDataDetailFragment extends ListFragment implements
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View v = inflater.inflate(R.layout.fragment_wishlist_component_list, container, false);
+		View v = inflater.inflate(R.layout.fragment_wishlist_item_list, container, false);
 
 		mListView = (ListView) v.findViewById(android.R.id.list);
 		
