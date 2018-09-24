@@ -25,8 +25,6 @@ public class ArmorListActivity extends GenericTabActivity {
         mAdapter = new ArmorExpandableListPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(mAdapter);
 
-        mSlidingTabLayout.setViewPager(viewPager);
-
         // Enable back button if we're coming from the set builder
         if (getIntent().getBooleanExtra(ASBActivity.EXTRA_FROM_SET_BUILDER, false)) {
             super.disableDrawerIndicator();

@@ -58,6 +58,8 @@
         <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
     </style>
 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <!-- Overrides about/changelog dialog box to have the confirm button visible, applied via android:alertDialogStyle -->
     <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="colorPrimary">@color/text_color</item>

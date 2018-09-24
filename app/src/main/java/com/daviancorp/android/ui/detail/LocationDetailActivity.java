@@ -32,8 +32,6 @@ public class LocationDetailActivity extends GenericTabActivity {
         mAdapter = new LocationDetailPagerAdapter(getSupportFragmentManager(), id);
         viewPager.setAdapter(mAdapter);
 
-        mSlidingTabLayout.setViewPager(viewPager);
-
     }
 
     @Override

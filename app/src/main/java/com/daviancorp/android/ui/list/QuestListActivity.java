@@ -25,8 +25,6 @@ public class QuestListActivity extends GenericTabActivity {
         mAdapter = new QuestExpandableListPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(mAdapter);
 
-        mSlidingTabLayout.setViewPager(viewPager);
-
         // Tag as top level activity
         super.setAsTopLevel();
     }

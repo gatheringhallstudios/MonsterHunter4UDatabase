@@ -41,8 +41,6 @@ public class ArmorDetailActivity extends GenericTabActivity {
         viewPager = (ViewPager) findViewById(R.id.pager);
         mAdapter = new ArmorDetailPagerAdapter(getSupportFragmentManager(), id);
         viewPager.setAdapter(mAdapter);
-
-        mSlidingTabLayout.setViewPager(viewPager);
     }
 
     @Override

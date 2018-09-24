@@ -42,8 +42,6 @@ public class WeaponDetailActivity extends GenericTabActivity {
         viewPager = (ViewPager) findViewById(R.id.pager);
         mAdapter = new WeaponDetailPagerAdapter(getSupportFragmentManager(), getApplicationContext(), id);
         viewPager.setAdapter(mAdapter);
-
-        mSlidingTabLayout.setViewPager(viewPager);
     }
 
     @Override

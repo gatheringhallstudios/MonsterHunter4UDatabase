@@ -31,8 +31,6 @@ public class QuestDetailActivity extends GenericTabActivity {
         viewPager = (ViewPager) findViewById(R.id.pager);
         mAdapter = new QuestDetailPagerAdapter(getSupportFragmentManager(), id);
         viewPager.setAdapter(mAdapter);
-
-        mSlidingTabLayout.setViewPager(viewPager);
     }
 
     @Override

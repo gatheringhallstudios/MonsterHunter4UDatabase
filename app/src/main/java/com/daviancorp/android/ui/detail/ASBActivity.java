@@ -104,7 +104,6 @@ public class ASBActivity extends GenericTabActivity {
             // Initialization
             adapter = new ASBPagerAdapter(getSupportFragmentManager(), session);
             viewPager.setAdapter(adapter);
-            mSlidingTabLayout.setViewPager(viewPager);
 
             updateASBSetChangedListeners();
         }

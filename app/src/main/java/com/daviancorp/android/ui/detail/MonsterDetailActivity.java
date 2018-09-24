@@ -34,8 +34,6 @@ public class MonsterDetailActivity extends GenericTabActivity {
         mAdapter = new MonsterDetailPagerAdapter(getSupportFragmentManager(), id);
         viewPager.setAdapter(mAdapter);
 
-        mSlidingTabLayout.setViewPager(viewPager);
-
     }
 
     @Override

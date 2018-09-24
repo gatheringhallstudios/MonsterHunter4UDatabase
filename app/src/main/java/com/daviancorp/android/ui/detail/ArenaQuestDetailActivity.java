@@ -31,9 +31,6 @@ public class ArenaQuestDetailActivity extends GenericTabActivity {
         viewPager = (ViewPager) findViewById(R.id.pager);
         mAdapter = new ArenaQuestDetailPagerAdapter(getSupportFragmentManager(), id);
         viewPager.setAdapter(mAdapter);
-
-        mSlidingTabLayout.setViewPager(viewPager);
-
     }
 
     @Override
