@@ -26,7 +26,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 
 
 class SlidingTabStrip extends LinearLayout {

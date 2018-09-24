@@ -7,7 +7,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 
 /*
  * Any subclass needs to:

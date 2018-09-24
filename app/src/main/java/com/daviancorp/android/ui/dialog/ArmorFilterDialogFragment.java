@@ -17,7 +17,7 @@ import android.widget.CompoundButton;
 import android.widget.Spinner;
 
 import com.daviancorp.android.data.classes.Rank;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.list.ArmorExpandableListFragment;
 
 public class ArmorFilterDialogFragment extends DialogFragment {

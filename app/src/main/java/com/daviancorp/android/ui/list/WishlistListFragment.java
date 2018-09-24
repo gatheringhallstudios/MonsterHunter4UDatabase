@@ -29,7 +29,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Wishlist;
 import com.daviancorp.android.data.database.WishlistCursor;
 import com.daviancorp.android.loader.WishlistListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.detail.WishlistDetailActivity;
 import com.daviancorp.android.ui.dialog.WishlistAddDialogFragment;
 import com.daviancorp.android.ui.dialog.WishlistCopyDialogFragment;

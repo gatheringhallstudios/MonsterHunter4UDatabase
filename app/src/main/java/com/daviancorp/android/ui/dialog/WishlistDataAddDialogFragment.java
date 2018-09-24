@@ -16,7 +16,7 @@ import android.widget.Toast;
 import com.daviancorp.android.data.classes.Wishlist;
 import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.data.database.WishlistCursor;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 
 import java.util.ArrayList;
 

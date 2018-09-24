@@ -10,7 +10,7 @@ import com.daviancorp.android.data.classes.ASBTalisman;
 import com.daviancorp.android.data.classes.Armor;
 import com.daviancorp.android.data.classes.Decoration;
 import com.daviancorp.android.data.classes.SkillTree;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.general.ResourceUtils;
 
 public class ASBSessionCursor extends CursorWrapper {

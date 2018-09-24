@@ -6,7 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.view.Menu;
 
 import com.daviancorp.android.data.database.DataManager;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.adapter.SkillTreeDetailPagerAdapter;
 import com.daviancorp.android.ui.general.GenericTabActivity;
 import com.daviancorp.android.ui.list.adapter.MenuSection;

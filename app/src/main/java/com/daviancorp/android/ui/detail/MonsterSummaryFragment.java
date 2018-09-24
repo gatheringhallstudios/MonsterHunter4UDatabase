@@ -25,7 +25,7 @@ import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.data.database.MonsterAilmentCursor;
 import com.daviancorp.android.loader.MonsterAilmentCursorLoader;
 import com.daviancorp.android.loader.MonsterLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 
 import org.apmem.tools.layouts.FlowLayout;
 

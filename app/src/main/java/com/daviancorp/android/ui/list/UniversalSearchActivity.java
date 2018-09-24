@@ -6,7 +6,7 @@ import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuInflater;
 
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.general.GenericActivity;
 import com.daviancorp.android.ui.list.adapter.MenuSection;
 

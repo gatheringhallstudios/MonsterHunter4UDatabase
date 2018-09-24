@@ -8,7 +8,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.daviancorp.android.data.database.DataManager;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.adapter.DecorationDetailPagerAdapter;
 import com.daviancorp.android.ui.dialog.WishlistDataAddDialogFragment;
 import com.daviancorp.android.ui.general.GenericTabActivity;

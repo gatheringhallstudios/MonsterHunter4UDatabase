@@ -21,7 +21,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Item;
 import com.daviancorp.android.data.database.ItemCursor;
 import com.daviancorp.android.loader.ItemListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.ArmorClickListener;
 import com.daviancorp.android.ui.ClickListeners.DecorationClickListener;
 import com.daviancorp.android.ui.ClickListeners.ItemClickListener;

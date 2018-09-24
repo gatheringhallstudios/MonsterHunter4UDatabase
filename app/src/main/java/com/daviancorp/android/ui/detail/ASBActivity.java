@@ -7,7 +7,7 @@ import android.support.v4.view.ViewPager;
 
 import com.daviancorp.android.data.classes.ASBSession;
 import com.daviancorp.android.loader.ASBSessionLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.adapter.ASBPagerAdapter;
 import com.daviancorp.android.ui.general.GenericTabActivity;
 import com.daviancorp.android.ui.list.ASBSetListFragment;

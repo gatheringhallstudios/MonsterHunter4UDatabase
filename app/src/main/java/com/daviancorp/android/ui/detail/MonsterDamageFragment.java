@@ -19,7 +19,7 @@ import com.daviancorp.android.data.classes.Monster;
 import com.daviancorp.android.data.classes.MonsterDamage;
 import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.loader.MonsterLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 
 import java.io.IOException;
 import java.io.InputStream;

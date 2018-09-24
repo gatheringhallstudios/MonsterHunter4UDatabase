@@ -21,7 +21,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.MonsterToArena;
 import com.daviancorp.android.data.database.MonsterToArenaCursor;
 import com.daviancorp.android.loader.MonsterToArenaListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 
 import java.io.IOException;
 

@@ -29,7 +29,7 @@ import com.daviancorp.android.data.classes.WishlistData;
 import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.data.database.WishlistDataCursor;
 import com.daviancorp.android.loader.WishlistDataListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.ItemClickListener;
 import com.daviancorp.android.ui.dialog.WishlistDataDeleteDialogFragment;
 import com.daviancorp.android.ui.dialog.WishlistDeleteDialogFragment;

@@ -21,7 +21,7 @@ import com.daviancorp.android.data.classes.Weapon;
 import com.daviancorp.android.data.database.HornMelodiesCursor;
 import com.daviancorp.android.loader.HornMelodyListCursorLoader;
 import com.daviancorp.android.loader.WeaponLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.MHUtils;
 import com.daviancorp.android.ui.general.DrawSharpness;
 

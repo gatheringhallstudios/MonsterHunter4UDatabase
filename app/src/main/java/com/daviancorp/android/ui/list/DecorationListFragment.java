@@ -25,7 +25,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Decoration;
 import com.daviancorp.android.data.database.DecorationCursor;
 import com.daviancorp.android.loader.DecorationListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.DecorationClickListener;
 import com.daviancorp.android.ui.detail.ASBActivity;
 

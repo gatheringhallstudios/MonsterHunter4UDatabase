@@ -31,7 +31,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.dialog.AboutDialogFragment;
 import com.daviancorp.android.ui.list.ASBSetListActivity;
 import com.daviancorp.android.ui.list.ArmorListActivity;

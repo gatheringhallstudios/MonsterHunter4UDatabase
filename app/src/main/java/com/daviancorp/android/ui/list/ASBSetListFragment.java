@@ -28,7 +28,7 @@ import com.daviancorp.android.data.classes.ASBSet;
 import com.daviancorp.android.data.database.ASBSetCursor;
 import com.daviancorp.android.data.database.DataManager;
 import com.daviancorp.android.loader.ASBSetListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.detail.ASBActivity;
 import com.daviancorp.android.ui.dialog.ASBSetAddDialogFragment;
 

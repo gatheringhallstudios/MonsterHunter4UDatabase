@@ -17,7 +17,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.QuestReward;
 import com.daviancorp.android.data.database.QuestRewardCursor;
 import com.daviancorp.android.loader.QuestRewardListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.QuestClickListener;
 
 public class ItemQuestFragment extends ListFragment implements

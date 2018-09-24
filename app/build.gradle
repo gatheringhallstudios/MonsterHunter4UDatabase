@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "com.daviancorp.android.mh4udatabase"
+        applicationId "com.ghstudios.android.mh4udatabase"
         minSdkVersion 14
         targetSdkVersion 27
         compileOptions {

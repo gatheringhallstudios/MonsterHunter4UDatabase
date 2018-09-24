@@ -20,7 +20,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Monster;
 import com.daviancorp.android.data.database.MonsterCursor;
 import com.daviancorp.android.loader.MonsterListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.MonsterClickListener;
 
 import java.io.IOException;

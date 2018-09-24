@@ -18,7 +18,7 @@ import com.daviancorp.android.data.classes.ASBTalisman;
 import com.daviancorp.android.data.classes.Decoration;
 import com.daviancorp.android.data.classes.SkillTree;
 import com.daviancorp.android.data.database.DataManager;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.compound.ASBPieceContainer;
 import com.daviancorp.android.ui.general.ResourceUtils;
 import com.daviancorp.android.ui.list.ArmorListActivity;

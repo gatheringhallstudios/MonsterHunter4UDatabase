@@ -18,7 +18,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Gathering;
 import com.daviancorp.android.data.database.GatheringCursor;
 import com.daviancorp.android.loader.GatheringListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.LocationClickListener;
 
 public class ItemLocationFragment extends ListFragment implements

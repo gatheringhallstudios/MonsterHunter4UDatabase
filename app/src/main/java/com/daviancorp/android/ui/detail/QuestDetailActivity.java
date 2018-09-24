@@ -5,7 +5,7 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 
 import com.daviancorp.android.data.database.DataManager;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.adapter.QuestDetailPagerAdapter;
 import com.daviancorp.android.ui.general.GenericTabActivity;
 import com.daviancorp.android.ui.list.adapter.MenuSection;

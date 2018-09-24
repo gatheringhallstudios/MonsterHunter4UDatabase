@@ -18,7 +18,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.Component;
 import com.daviancorp.android.data.database.ComponentCursor;
 import com.daviancorp.android.loader.ComponentListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.ArmorClickListener;
 import com.daviancorp.android.ui.ClickListeners.DecorationClickListener;
 import com.daviancorp.android.ui.ClickListeners.ItemClickListener;

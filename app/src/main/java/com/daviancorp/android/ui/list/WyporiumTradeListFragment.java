@@ -21,7 +21,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.WyporiumTrade;
 import com.daviancorp.android.data.database.WyporiumTradeCursor;
 import com.daviancorp.android.loader.WyporiumTradeListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.WyporiumTradeClickListener;
 
 import java.io.IOException;

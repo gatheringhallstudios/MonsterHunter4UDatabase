@@ -18,7 +18,7 @@ import android.widget.TextView;
 import com.daviancorp.android.data.classes.SkillTree;
 import com.daviancorp.android.data.database.SkillTreeCursor;
 import com.daviancorp.android.loader.SkillTreeListCursorLoader;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.SkillClickListener;
 import com.daviancorp.android.ui.detail.ASBActivity;
 import com.daviancorp.android.ui.detail.SkillTreeDetailActivity;

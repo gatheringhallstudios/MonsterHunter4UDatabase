@@ -24,7 +24,7 @@ import com.daviancorp.android.data.classes.Armor;
 import com.daviancorp.android.data.classes.Item;
 import com.daviancorp.android.data.classes.Rank;
 import com.daviancorp.android.data.database.DataManager;
-import com.daviancorp.android.mh4udatabase.R;
+import com.ghstudios.android.mh4udatabase.R;
 import com.daviancorp.android.ui.ClickListeners.ArmorClickListener;
 import com.daviancorp.android.ui.detail.ASBActivity;
 import com.daviancorp.android.ui.dialog.ArmorFilterDialogFragment;
