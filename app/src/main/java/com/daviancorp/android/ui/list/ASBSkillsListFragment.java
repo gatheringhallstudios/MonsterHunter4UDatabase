@@ -96,35 +96,36 @@ public class ASBSkillsListFragment extends Fragment implements ASBActivity.OnASB
             TextView talismanPoints = (TextView) itemView.findViewById(R.id.talisman);
             TextView totalPoints = (TextView) itemView.findViewById(R.id.total);
 
-            treeName.setText(getItem(position).getSkillTree().getName());
+            SkillTreeInSet data = getItem(position);
+            treeName.setText(data.getSkillTree().getName());
 
-            if (session.isEquipmentSelected(ASBSession.HEAD) && getItem(position).getPoints(ASBSession.HEAD) != 0) {
-                headPoints.setText(String.valueOf(getItem(position).getPoints(ASBSession.HEAD)));
+            if (session.isEquipmentSelected(ASBSession.HEAD) && data.getPoints(ASBSession.HEAD) != 0) {
+                headPoints.setText(String.valueOf(data.getPoints(ASBSession.HEAD)));
             }
 
-            if (session.isEquipmentSelected(ASBSession.BODY) && getItem(position).getPoints(ASBSession.BODY, trees) != 0) { // NOTICE: We have to call the alternate getPoints method due to the possibility of Torso Up pieces.
-                bodyPoints.setText(String.valueOf(getItem(position).getPoints(ASBSession.BODY, trees)));
+            if (session.isEquipmentSelected(ASBSession.BODY) && data.getPoints(ASBSession.BODY, trees) != 0) { // NOTICE: We have to call the alternate getPoints method due to the possibility of Torso Up pieces.
+                bodyPoints.setText(String.valueOf(data.getPoints(ASBSession.BODY, trees)));
             }
 
-            if (session.isEquipmentSelected(ASBSession.ARMS) && getItem(position).getPoints(ASBSession.ARMS) != 0) {
-                armsPoints.setText(String.valueOf(getItem(position).getPoints(ASBSession.ARMS)));
+            if (session.isEquipmentSelected(ASBSession.ARMS) && data.getPoints(ASBSession.ARMS) != 0) {
+                armsPoints.setText(String.valueOf(data.getPoints(ASBSession.ARMS)));
             }
 
-            if (session.isEquipmentSelected(ASBSession.WAIST) && getItem(position).getPoints(ASBSession.WAIST) != 0) {
-                waistPoints.setText(String.valueOf(getItem(position).getPoints(ASBSession.WAIST)));
+            if (session.isEquipmentSelected(ASBSession.WAIST) && data.getPoints(ASBSession.WAIST) != 0) {
+                waistPoints.setText(String.valueOf(data.getPoints(ASBSession.WAIST)));
             }
 
-            if (session.isEquipmentSelected(ASBSession.LEGS) && getItem(position).getPoints(ASBSession.LEGS) != 0) {
-                legsPoints.setText(String.valueOf(getItem(position).getPoints(ASBSession.LEGS)));
+            if (session.isEquipmentSelected(ASBSession.LEGS) && data.getPoints(ASBSession.LEGS) != 0) {
+                legsPoints.setText(String.valueOf(data.getPoints(ASBSession.LEGS)));
             }
 
-            if (session.isEquipmentSelected(ASBSession.TALISMAN) && getItem(position).getPoints(ASBSession.TALISMAN) != 0) {
-                talismanPoints.setText(String.valueOf(getItem(position).getPoints(ASBSession.TALISMAN)));
+            if (session.isEquipmentSelected(ASBSession.TALISMAN) && data.getPoints(ASBSession.TALISMAN) != 0) {
+                talismanPoints.setText(String.valueOf(data.getPoints(ASBSession.TALISMAN)));
             }
 
-            totalPoints.setText(String.valueOf(getItem(position).getTotal(trees)));
+            totalPoints.setText(String.valueOf(data.getTotal(trees)));
 
-            if (getItem(position).getTotal(trees) >= MINIMUM_SKILL_ACTIVATION_POINTS) {
+            if (data.getTotal(trees) >= MINIMUM_SKILL_ACTIVATION_POINTS) {
                 treeName.setTypeface(null, Typeface.BOLD);
                 headPoints.setTypeface(null, Typeface.BOLD);
                 bodyPoints.setTypeface(null, Typeface.BOLD);
@@ -135,9 +136,15 @@ public class ASBSkillsListFragment extends Fragment implements ASBActivity.OnASB
                 totalPoints.setTypeface(null, Typeface.BOLD);
             }
             
-            itemView.setOnClickListener(new SkillClickListener(parent.getContext(), getItem(position).getSkillTree().getId()));
+            itemView.setOnClickListener(new SkillClickListener(parent.getContext(), data.getSkillTree().getId()));
 
             return itemView;
+        }
+
+        @Override
+        public int getCount() {
+            // avoid potential out of bounds
+            return trees.size();
         }
 
         @Override
